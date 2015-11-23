@@ -9,7 +9,7 @@ $(call inherit-product, vendor/liquid/config/common_phone.mk)
 $(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
+$(call inherit-product, device/lge/bullhead/full_bullhead.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := liquid_bullhead
