@@ -33,7 +33,7 @@ TARGET_NO_BOOTLOADER := true
 # Inline kernel
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/lge/bullhead
-TARGET_KERNEL_CONFIG := cyanogenmod_bullhead_defconfig
+TARGET_KERNEL_CONFIG := phasma_defconfig
 
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
@@ -144,6 +144,9 @@ TARGET_USES_64_BIT_BINDER := true
 
 TARGET_USES_AOSP := true
 TARGET_USES_INTERACTION_BOOST := true
+
+# Changelog
+LIQUID_CHANGELOG := true
 
 # Force camera module to be compiled only in 32-bit mode on 64-bit systems
 # Once camera module can run in the native mode of the system (either
