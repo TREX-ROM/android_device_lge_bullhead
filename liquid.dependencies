@@ -1,0 +1,8 @@
+[
+  {
+   "remote": "gh",
+   "repository": "DespairFactor/bullhead",
+   "target_path": "kernel/lge/bullhead",
+   "revision": "master"
+  }
+]
