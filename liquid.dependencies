@@ -1,8 +1,8 @@
 [
   {
    "remote": "gh",
-   "repository": "DespairFactor/bullhead",
+   "repository": "TREX-ROM/bullhead-1",
    "target_path": "kernel/lge/bullhead",
-   "revision": "master"
+   "revision": "mm6.0"
   }
 ]
