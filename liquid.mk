@@ -11,6 +11,11 @@ $(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
 # Inherit device configuration
 $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
+# Copy specific prebuilt files
+PRODUCT_COPY_FILES +=  \
+    vendor/liquid/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/liquid/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := liquid_bullhead
 PRODUCT_BRAND := google
