@@ -13,8 +13,8 @@ $(call inherit-product, device/lge/bullhead/aosp_bullhead.mk)
 
 # Copy specific prebuilt files
 PRODUCT_COPY_FILES +=  \
-    vendor/liquid/proprietary/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
-    vendor/liquid/proprietary/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+    vendor/liquid/prebuilt/common/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/liquid/prebuilt/common/media/PFFprec_600.emd:system/media/PFFprec_600.emd
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := liquid_bullhead
