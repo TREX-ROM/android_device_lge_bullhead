@@ -381,8 +381,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Disable Camera TNR
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.camera.tnr.preview=0 \
-    persist.camera.tnr.video=0
+    persist.camera.tnr.preview=1 \
+    persist.camera.tnr.video=1
 
 # Incoming number (b/23529711)
 PRODUCT_PROPERTY_OVERRIDES += \
