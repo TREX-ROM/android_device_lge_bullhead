@@ -383,6 +383,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.tnr.preview=1 \
     persist.camera.tnr.video=1
+    
+#Electronic Image Stabilization
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.camera.eis.enable=1
 
 # Incoming number (b/23529711)
 PRODUCT_PROPERTY_OVERRIDES += \
