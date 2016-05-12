@@ -1,8 +1,8 @@
 [
   {
    "remote": "gh",
-   "repository": "DespairFactor/bullhead",
+   "repository": "rachanta/racer-n5x",
    "target_path": "kernel/lge/bullhead",
-   "revision": "master"
+   "revision": "racer-m"
   }
 ]
