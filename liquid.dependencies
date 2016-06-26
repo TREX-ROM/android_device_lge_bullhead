@@ -1,8 +1,2 @@
 [
-  {
-   "remote": "gh",
-   "repository": "rachanta/racer-n5x",
-   "target_path": "kernel/lge/bullhead",
-   "revision": "racer-m"
-  }
 ]
