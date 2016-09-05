@@ -1,8 +1,8 @@
 [
   {
    "remote": "gh",
-   "repository": "rachanta/racer-n5x",
+   "repository": "CyanogenMod/android_kernel_lge_bullhead",
    "target_path": "kernel/lge/bullhead",
-   "revision": "racer-m"
+   "revision": "cm-13.0"
   }
 ]
