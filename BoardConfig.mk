@@ -35,7 +35,7 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_SOURCE := kernel/lge/bullhead
 TARGET_KERNEL_CONFIG := phasma_defconfig
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9-kernel/bin
-KERNEL_TOOLCHAIN_PREFIX := aarch64-
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 
 BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 4096
